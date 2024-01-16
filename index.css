@@ -1,0 +1,178 @@
+:root {
+    --primary-200: #dd8900;
+    --primary-300: #904a00;
+    --accent-100: #FFD700;
+    --accent-200: #917800;
+    --text-100: #FFFFFF;
+    --text-200: #e0e0e0;
+    --bg-100: #000000;
+    --bg-200: #161616;
+    --bg-300: #2c2c2c;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-100);
+    color: var(--text-100);
+}
+
+header {
+    background-color: var(--bg-200);
+    height: 60px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.text h1{
+    font-size: 75px;
+}
+
+.logo h1 {
+    margin-left: 45px;
+    color: var(--text-100);
+    font-size: 35px;
+}
+
+.photo img {
+    width: 315px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-100);
+    font-size: 18px;
+}
+
+.section {
+    padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text */
+}
+
+.section h4 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#home .home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px;
+    border: 5px solid darkslategray;
+    border-radius: 1%;
+    height: 70vh;
+    background-color: darkslategray;
+}
+
+#home .text,
+#home .photo {
+    width: 48%;
+    height: 48%;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: var(--bg-200);
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    color: white;
+}
+
+.nav:hover {
+    transition: 0.2s;
+    background-color: aqua;
+    font-size: 25px;
+    font-weight: bold;
+    height: 80px;
+    padding: 26px 0px;
+}
+
+.Discord {
+    text-decoration: none;
+    padding: 0 10px;
+    color: aqua;
+}
+
+.wikrama {
+    width: 240px;
+    height: 240px;
+}
+
+.alhusna {
+    width: 220px;
+    height: 220px;
+}
+
+.Instagram {
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.image {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.skills {
+    border: 5px solid white;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5%;
+    width: 150vh;
+    margin-left: 155px;
+}
+
+.skills p {
+    font-size: larger;
+}
+
+#about section {
+    border: 5px solid darkslategray;
+    border-radius: 15%;
+}
+
+.contact {
+    padding: 40px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text */
+}
